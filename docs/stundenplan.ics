@@ -1,0 +1,1953 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//matse-stundenplan//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MATSE Stundenplan
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b2496d05b595e7c9155c6b50b286632d@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260610T081500
+DTEND;TZID=Europe/Berlin:20260610T094500
+SUMMARY:Numerik 1
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e9dac9aa4799c278a338794c164a0ea6@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260610T100000
+DTEND;TZID=Europe/Berlin:20260610T113000
+SUMMARY:Web-Engineering und Internettechnologien
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9f7cb5624167d83e75838c0c1444b758@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260610T123000
+DTEND;TZID=Europe/Berlin:20260610T140000
+SUMMARY:Kommunikationssysteme
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3255d80a3e915f1240d40a1f4a2c5c41@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260611T081500
+DTEND;TZID=Europe/Berlin:20260611T103000
+SUMMARY:Numerik 1
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:800cf53218de8fd5619ab5b1a97dcb56@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260611T104500
+DTEND;TZID=Europe/Berlin:20260611T121500
+SUMMARY:(!) Übung SW 23/147
+LOCATION:(Roussel)
+DESCRIPTION:Achtung\, Raumwechsel!\nDeine Gruppe (2): SW 23/147\, Raum (Rou
+ ssel)\n\nAlle Gruppen:\nGruppe 1: Hörsaal\, Raum (J. Poniatowski)\nGruppe
+  2: SW 23/147\, Raum (Roussel)\nGruppe 3: 231\, Raum (Mix)\nGruppe 4: S004
+ \, Raum (B.Poniatowski)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, S
+ effenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:45f121cca932e2f3c15fea3d0aa6766e@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260611T131500
+DTEND;TZID=Europe/Berlin:20260611T144500
+SUMMARY:Übung SW 23/147
+LOCATION:(J. Poniatowski)
+DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (J. Poniatowski)\n\nAlle Gru
+ ppen:\nGruppe 1: Hörsaal\, Raum (Jagodzinska)\nGruppe 2: SW 23/147\, Raum
+  (J. Poniatowski)\nGruppe 3: S003\, Raum (Eichhof)\nGruppe 4: S004\, Raum 
+ (Roussel)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 2
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bcd77422854eb06bb26c1d5bda26bf3b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260611T150000
+DTEND;TZID=Europe/Berlin:20260611T163000
+SUMMARY:Übung SW 23/147
+LOCATION:KomSys (Jagodzinska)
+DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum KomSys (Jagodzinska)\n\nAlle
+  Gruppen:\nGruppe 1: Hörsaal\, Raum WebEng (Mix)\nGruppe 2: SW 23/147\, R
+ aum KomSys (Jagodzinska)\nGruppe 3: S003\, Raum KomSys (B. Poniatowski)\nG
+ ruppe 4: S004\, Raum Num 1 (Eichhof)\n\nHauptraum laut Plan: Hörsaal RZ (
+ Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:66777434b8ca67e9b2673454894d10e6@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260617T081500
+DTEND;TZID=Europe/Berlin:20260617T094500
+SUMMARY:Numerik 1
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ef7935378616bf3e628990b8eaaaa2de@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260617T100000
+DTEND;TZID=Europe/Berlin:20260617T113000
+SUMMARY:Web-Engineering und Internettechnologien
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5a638ae2ae1a398981f397f4a56b92a6@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260617T123000
+DTEND;TZID=Europe/Berlin:20260617T140000
+SUMMARY:Kommunikationssysteme
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:287e7be598b952e87bb1838752260aa1@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260618T081500
+DTEND;TZID=Europe/Berlin:20260618T103000
+SUMMARY:Numerik 1
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b59ac44971bd8469f9523695415e3222@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260618T104500
+DTEND;TZID=Europe/Berlin:20260618T121500
+SUMMARY:Übung SW 23/147
+LOCATION:(Roussel)
+DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (Roussel)\n\nAlle Gruppen:\n
+ Gruppe 1: Hörsaal\, Raum (J. Poniatowski)\nGruppe 2: SW 23/147\, Raum (Ro
+ ussel)\nGruppe 3: S003\, Raum (Mix)\nGruppe 4: S004\, Raum (B.Poniatowski)
+ \n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:f2f2fe42c6defdc90d9e657a7e38ede2@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260618T131500
+DTEND;TZID=Europe/Berlin:20260618T144500
+SUMMARY:Übung SW 23/147
+LOCATION:(J. Poniatowski)
+DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (J. Poniatowski)\n\nAlle Gru
+ ppen:\nGruppe 1: Hörsaal\, Raum (Jagodzinska)\nGruppe 2: SW 23/147\, Raum
+  (J. Poniatowski)\nGruppe 3: S003\, Raum (Eichhof)\nGruppe 4: S004\, Raum 
+ (Roussel)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 2
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aca4505586382b7e858546d77aba4547@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260618T150000
+DTEND;TZID=Europe/Berlin:20260618T163000
+SUMMARY:Übung SW 23/147
+LOCATION:KomSys (Jagodzinska)
+DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum KomSys (Jagodzinska)\n\nAlle
+  Gruppen:\nGruppe 1: Hörsaal\, Raum WebEng (Mix)\nGruppe 2: SW 23/147\, R
+ aum KomSys (Jagodzinska)\nGruppe 3: S003\, Raum KomSys (B. Poniatowski)\nG
+ ruppe 4: S004\, Raum Num 1 (Eichhof)\n\nHauptraum laut Plan: Hörsaal RZ (
+ Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:e7e043a80662a864673b870540daeba3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260624T081500
+DTEND;TZID=Europe/Berlin:20260624T094500
+SUMMARY:(!) Numerik 1
+LOCATION:online
+DESCRIPTION:Dozent: Reißel\nonline
+END:VEVENT
+BEGIN:VEVENT
+UID:ab342b128a9e29e92792a8ccf6fb3f98@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260624T100000
+DTEND;TZID=Europe/Berlin:20260624T113000
+SUMMARY:(!) Web-Engineering und Internettechnologien
+LOCATION:online
+DESCRIPTION:Dozent: Sander\nonline
+END:VEVENT
+BEGIN:VEVENT
+UID:0a0a28ec0722c36571e2ae29eb197f28@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260624T114500
+DTEND;TZID=Europe/Berlin:20260624T131500
+SUMMARY:(!) Kommunikationssysteme
+LOCATION:online
+DESCRIPTION:Dozent: Sander\nonline
+END:VEVENT
+BEGIN:VEVENT
+UID:322088ddd2255d67414493089aa3fbbf@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260625T081500
+DTEND;TZID=Europe/Berlin:20260625T103000
+SUMMARY:(!) Numerik 1
+LOCATION:online
+DESCRIPTION:Dozent: Reißel\nonline
+END:VEVENT
+BEGIN:VEVENT
+UID:5e1a21fa1872ef7fccc0ce92369e3e0d@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260625T104500
+DTEND;TZID=Europe/Berlin:20260625T121500
+SUMMARY:(!) Übung online
+LOCATION:(Roussel)
+DESCRIPTION:Deine Gruppe (2): online\, Raum (Roussel)\n\nAlle Gruppen:\nGru
+ ppe 1: online\, Raum (J. Poniatowski)\nGruppe 2: online\, Raum (Roussel)\n
+ Gruppe 3: online\, Raum (Mix)\nGruppe 4: online\, Raum (B.Poniatowski)\n\n
+ Hauptraum laut Plan: online
+END:VEVENT
+BEGIN:VEVENT
+UID:05b24b507ed4f27be4b179beb748ef29@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260625T131500
+DTEND;TZID=Europe/Berlin:20260625T144500
+SUMMARY:(!) Übung online
+LOCATION:(J. Poniatowski)
+DESCRIPTION:Deine Gruppe (2): online\, Raum (J. Poniatowski)\n\nAlle Gruppe
+ n:\nGruppe 1: online\, Raum (Jagodzinska)\nGruppe 2: online\, Raum (J. Pon
+ iatowski)\nGruppe 3: online\, Raum (Eichhof)\nGruppe 4: online\, Raum (Rou
+ ssel)\n\nHauptraum laut Plan: online
+END:VEVENT
+BEGIN:VEVENT
+UID:37e8f25d4cf92f2985ef9c3b21f744de@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260625T150000
+DTEND;TZID=Europe/Berlin:20260625T163000
+SUMMARY:(!) Übung online
+LOCATION:KomSys (Jagodzinska)
+DESCRIPTION:Deine Gruppe (2): online\, Raum KomSys (Jagodzinska)\n\nAlle Gr
+ uppen:\nGruppe 1: online\, Raum WebEng (Mix)\nGruppe 2: online\, Raum KomS
+ ys (Jagodzinska)\nGruppe 3: online\, Raum KomSys (B. Poniatowski)\nGruppe 
+ 4: online\, Raum Num 1 (Eichhof)\n\nHauptraum laut Plan: online
+END:VEVENT
+BEGIN:VEVENT
+UID:913aa66b86cf104b2d8795ace4db15f6@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260701T081500
+DTEND;TZID=Europe/Berlin:20260701T094500
+SUMMARY:(!) Numerik 1
+LOCATION:AH IV\, Ahornstraße 55
+DESCRIPTION:Dozent: Reißel\nAH IV\, Ahornstraße 55\, EG\nOrt: Hörsaal an
+  der Mensa
+END:VEVENT
+BEGIN:VEVENT
+UID:e2b28e38bd1a7e95bf602d0cb9aa749b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260701T100000
+DTEND;TZID=Europe/Berlin:20260701T113000
+SUMMARY:(!) Web-Engineering und Internettechnologien
+LOCATION:AH IV\, Ahornstraße 55
+DESCRIPTION:Dozent: Sander\nAH IV\, Ahornstraße 55\, EG\nOrt: Hörsaal an 
+ der Mensa
+END:VEVENT
+BEGIN:VEVENT
+UID:058e83fdb2f94c6d3e027bd8a5e7c4f3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260701T123000
+DTEND;TZID=Europe/Berlin:20260701T140000
+SUMMARY:Kommunikationssysteme
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:fc239963ae8fdfabe0ae967ab09a2c0d@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260702T081500
+DTEND;TZID=Europe/Berlin:20260702T103000
+SUMMARY:Numerik 1
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:33a2a417d8c5de768ff757651ca8c22a@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260702T104500
+DTEND;TZID=Europe/Berlin:20260702T121500
+SUMMARY:(!) Übung SW 23/147
+LOCATION:(Roussel)
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): SW 23/147\, Raum (R
+ oussel)\n\nAlle Gruppen:\nGruppe 1: Hörsaal\, Raum (J. Poniatowski)\nGrup
+ pe 2: SW 23/147\, Raum (Roussel)\nGruppe 3: 231\, Raum (Mix)\nGruppe 4: S0
+ 04\, Raum (B.Poniatowski)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\,
+  Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:3df4c3278b6e102d81f741e78be5f7c0@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260702T131500
+DTEND;TZID=Europe/Berlin:20260702T144500
+SUMMARY:(!) Übung SW 23/147
+LOCATION:(J. Poniatowski)
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): SW 23/147\, Raum (J
+ . Poniatowski)\n\nAlle Gruppen:\nGruppe 1: Hörsaal\, Raum (Jagodzinska)\n
+ Gruppe 2: SW 23/147\, Raum (J. Poniatowski)\nGruppe 3: 231\, Raum (Eichhof
+ )\nGruppe 4: S004\, Raum (Roussel)\n\nHauptraum laut Plan: Hörsaal RZ (Ra
+ um 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:371cce6598c08faf2b0104cbab7c908f@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260702T150000
+DTEND;TZID=Europe/Berlin:20260702T163000
+SUMMARY:(!) Übung SW 23/147
+LOCATION:KomSys (Jagodzinska)
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): SW 23/147\, Raum Ko
+ mSys (Jagodzinska)\n\nAlle Gruppen:\nGruppe 1: Hörsaal\, Raum WebEng (Mix
+ )\nGruppe 2: SW 23/147\, Raum KomSys (Jagodzinska)\nGruppe 3: 231\, Raum K
+ omSys (B. Poniatowski)\nGruppe 4: S004\, Raum Num 1 (Eichhof)\n\nHauptraum
+  laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:bb2c6b3d2c7073d718286bfc4cc90b25@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260708T081500
+DTEND;TZID=Europe/Berlin:20260708T094500
+SUMMARY:Numerik 1
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:326c7165b99c605695b793f1d47e037c@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260708T100000
+DTEND;TZID=Europe/Berlin:20260708T113000
+SUMMARY:(!) Web-Engineering und Internettechnologien
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2f6468227abba2bad450648fcc0498f3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260708T123000
+DTEND;TZID=Europe/Berlin:20260708T140000
+SUMMARY:Kommunikationssysteme
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b1dc288faf3ba477c202b9fa420bd2d8@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260709T083000
+DTEND;TZID=Europe/Berlin:20260709T100000
+SUMMARY:(!) Übung SW 23/147
+LOCATION:(Roussel)
+DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (Roussel)\n\nAlle Gruppen:\n
+ Gruppe 1: Hörsaal\, Raum (J. Poniatowski)\nGruppe 2: SW 23/147\, Raum (Ro
+ ussel)\nGruppe 3: S003\, Raum (Mix)\nGruppe 4: S004\, Raum (B.Poniatowski)
+ \n\nHauptraum laut Plan: Seminarraum 231\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:a46364d326c558addaec12e34fb5b041@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260709T101500
+DTEND;TZID=Europe/Berlin:20260709T114500
+SUMMARY:(!) Übung SW 23/147
+LOCATION:(J. Poniatowski)
+DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (J. Poniatowski)\n\nAlle Gru
+ ppen:\nGruppe 1: Hörsaal\, Raum (B. Poniatowski)\nGruppe 2: SW 23/147\, R
+ aum (J. Poniatowski)\nGruppe 3: S003\, Raum (Eichhof)\nGruppe 4: S004\, Ra
+ um (Roussel)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter We
+ g 23
+END:VEVENT
+BEGIN:VEVENT
+UID:0a6cb1343cf8be31d083b92cfb3f2bd7@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260709T120000
+DTEND;TZID=Europe/Berlin:20260709T133000
+SUMMARY:(!) Übung Hörsaal
+LOCATION:KomSys (B. Poniatowski)
+DESCRIPTION:Deine Gruppe (2): Hörsaal\, Raum KomSys (B. Poniatowski)\n\nAl
+ le Gruppen:\nGruppe 1: S003\, Raum WebEng (Mix)\nGruppe 2: Hörsaal\, Raum
+  KomSys (B. Poniatowski)\nGruppe 3: Hörsaal\, Raum KomSys (B. Poniatowski
+ )\nGruppe 4: S004\, Raum Num 1 (Eichhof)\n\nHauptraum laut Plan: Hörsaal 
+ RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:556e2e92be15b73c21fea42dbeefa827@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260715T081500
+DTEND;TZID=Europe/Berlin:20260715T094500
+SUMMARY:Numerik 1
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5d90355842ee890b16d58e3f5530c327@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260715T100000
+DTEND;TZID=Europe/Berlin:20260715T113000
+SUMMARY:Web-Engineering und Internettechnologien
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Sander\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bc71549589c2aec94c0aad16d6d65f29@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260801
+SUMMARY:Wahlphase Wahlmodule
+END:VEVENT
+BEGIN:VEVENT
+UID:cdeadce72dbfc3118553f3befe4ce340@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260716T164500
+DTEND;TZID=Europe/Berlin:20260716T181500
+SUMMARY:Wahlmodulvorstellung
+LOCATION:online
+DESCRIPTION:online
+END:VEVENT
+BEGIN:VEVENT
+UID:a67d5992c1ae430aa19c9e1a8ad2eb45@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20260925T133000
+DTEND;TZID=Europe/Berlin:20260925T143000
+SUMMARY:Klausureinsicht
+LOCATION:Aula 2\, Ahornstraße 55
+DESCRIPTION:Aula 2\nOrt: Aula und Mensa
+END:VEVENT
+BEGIN:VEVENT
+UID:3670f81fc4205dea780af2f68cadf51a@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Tag der deutschen Einheit)
+END:VEVENT
+BEGIN:VEVENT
+UID:36d29d674f85130e4ed59adc69ac18c0@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261005T081500
+DTEND;TZID=Europe/Berlin:20261005T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a1727ee10e060055b0f5cbf3990cd445@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261005T100000
+DTEND;TZID=Europe/Berlin:20261005T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3ac4c0ef3f52e692fb72d0b2a9724c37@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261005T123000
+DTEND;TZID=Europe/Berlin:20261005T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bfdbcb28a552d9f5103a9b6d3ee87313@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261006T081500
+DTEND;TZID=Europe/Berlin:20261006T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3535f4ed7d3cff2428f2109d055bfe0d@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261006T100000
+DTEND;TZID=Europe/Berlin:20261006T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): DB (B. Poniatowski)
+ \, Raum SW23/147\n\nAlle Gruppen:\nGruppe 1: STO (Heinrichs)\, Raum S003\n
+ Gruppe 2: DB (B. Poniatowski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum 
+ Hörsaal\nGruppe 4: SWT (Mix)\, Raum Hörsaal\n\nHauptraum laut Plan: Hör
+ saal RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:27a15411585ccf2121f9d4cfc5951ee5@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261006T123000
+DTEND;TZID=Europe/Berlin:20261006T140000
+SUMMARY:Übung SWT (Mix)
+LOCATION:Hörsaal
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): SWT (Mix)\, Raum H
+ örsaal\n\nAlle Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: S
+ WT (Mix)\, Raum Hörsaal\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: 
+ DB (Eichhof)\, Raum 231\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, S
+ effenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:f9b422ed533bee193c3b2bf2482d895e@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261006T141500
+DTEND;TZID=Europe/Berlin:20261006T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Achtung. Raumänderung!\nDeine Gruppe (2): STO (Dreßen)\, Raum
+  SW 23/147\n\nAlle Gruppen:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGrupp
+ e 2: STO (Dreßen)\, Raum SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum 
+ S003\nGruppe 4: STO (Albrecht)\, Raum 231\n\nHauptraum laut Plan: Hörsaal
+  RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:27f4f488f4871fa6c8da5a117bf88c83@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261009T081500
+DTEND;TZID=Europe/Berlin:20261009T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:0a63f945e1b40a3940c530dc62e061ea@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261012T081500
+DTEND;TZID=Europe/Berlin:20261012T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c4f839cf6fce57b167da0bb485724a70@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261012T100000
+DTEND;TZID=Europe/Berlin:20261012T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c81c996703f4857df3b465318489b9a3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261012T123000
+DTEND;TZID=Europe/Berlin:20261012T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f79c221d9641a2fca765cf275a3137a3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261013T081500
+DTEND;TZID=Europe/Berlin:20261013T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4621ced08ae4ce68e3dadfc38814e97e@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261013T100000
+DTEND;TZID=Europe/Berlin:20261013T113000
+SUMMARY:(!) Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): DB (B. Poniatowski)
+ \, Raum SW23/147\n\nAlle Gruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsa
+ al\nGruppe 2: DB (B. Poniatowski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, R
+ aum 231\nGruppe 4: SWT (J. Poniatowski)\, Raum S004\n\nHauptraum laut Plan
+ : Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:b42a5164e51c7a18d27c7bba474fc62d@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261013T123000
+DTEND;TZID=Europe/Berlin:20261013T140000
+SUMMARY:(!) Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): SWT (J. Poniatowski
+ )\, Raum SW 23/147\n\nAlle Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\n
+ Gruppe 2: SWT (J. Poniatowski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\
+ , Raum 231\nGruppe 4: DB (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hö
+ rsaal RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb81f8bb701edfd0b24b9816b00dc04@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261013T141500
+DTEND;TZID=Europe/Berlin:20261013T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:0ba876fccd25bad3d18ca3464333fb74@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261016T081500
+DTEND;TZID=Europe/Berlin:20261016T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:205651238acbbe00157f95eb2dd85408@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261019T081500
+DTEND;TZID=Europe/Berlin:20261019T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:2da2d44de39cb71f45b8b42000a4d1f4@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261019T100000
+DTEND;TZID=Europe/Berlin:20261019T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ee9efc051b797ce165aa244cbdf7e4@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261019T123000
+DTEND;TZID=Europe/Berlin:20261019T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:826b8b5e6dc7d402e697b64713248bce@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261020T081500
+DTEND;TZID=Europe/Berlin:20261020T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:fb6bca13cf4292a93cf2ddc147b0601b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261020T100000
+DTEND;TZID=Europe/Berlin:20261020T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:0b2b2a941292aebb5f8e32d46a81221e@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261020T123000
+DTEND;TZID=Europe/Berlin:20261020T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:a9f81174500b1201d592d002af538d2e@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261020T141500
+DTEND;TZID=Europe/Berlin:20261020T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:32dd576429c75cbac64d607e447a7b7a@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261023T081500
+DTEND;TZID=Europe/Berlin:20261023T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8a8e3d6c04733735927dc7341559fb8c@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T081500
+DTEND;TZID=Europe/Berlin:20261026T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ab44a935bded70d7588959e1d1f64870@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T100000
+DTEND;TZID=Europe/Berlin:20261026T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a8766128579d2d217dc22afd91d0ae08@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261026T123000
+DTEND;TZID=Europe/Berlin:20261026T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b278b56c0a898adb0fe9364982e9aacb@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T081500
+DTEND;TZID=Europe/Berlin:20261027T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6eaaf17939cb1a2fa6653f31aebaba24@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T100000
+DTEND;TZID=Europe/Berlin:20261027T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:72f14d6bdb26e790e239b668b51322ff@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T123000
+DTEND;TZID=Europe/Berlin:20261027T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:02917520fa8e3e21d8c55fe801999774@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261027T141500
+DTEND;TZID=Europe/Berlin:20261027T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:0f3dfb6d035a1c6dd4e83aa755dae01a@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261030T081500
+DTEND;TZID=Europe/Berlin:20261030T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e1ddae7116ff4ede90f16564594023af@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Allerheiligen)
+END:VEVENT
+BEGIN:VEVENT
+UID:b936a3ebba3973a0f01294ac75b59313@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T081500
+DTEND;TZID=Europe/Berlin:20261102T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ec3a73912e19c32bf1b854d227e89cf3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T100000
+DTEND;TZID=Europe/Berlin:20261102T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:94ba57e1401bd4c9429a696a8a6ac722@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261102T123000
+DTEND;TZID=Europe/Berlin:20261102T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:47bcfbb1af3da4270a0b4c7a2dbf6734@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T081500
+DTEND;TZID=Europe/Berlin:20261103T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6656d9789c67b5eaa9b2fa0a0b637cd0@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T100000
+DTEND;TZID=Europe/Berlin:20261103T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:10801eb892ac915179c97506b5752c77@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T123000
+DTEND;TZID=Europe/Berlin:20261103T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:836b23034591e9c58251a9a95c358ed4@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261103T141500
+DTEND;TZID=Europe/Berlin:20261103T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:d1de98bab31bee581a3ccf6fba1adca2@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261106T081500
+DTEND;TZID=Europe/Berlin:20261106T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bf7f9867ee32829e870b51326bbc69b1@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T081500
+DTEND;TZID=Europe/Berlin:20261109T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4ea68cc2a74cca406032a4c69d9d9c4b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T100000
+DTEND;TZID=Europe/Berlin:20261109T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:836f6d710eb51ed99dc6e562e14e9fd9@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261109T123000
+DTEND;TZID=Europe/Berlin:20261109T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:97876b83423b70fb0b6bafc90a93fed5@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T081500
+DTEND;TZID=Europe/Berlin:20261110T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc1fde187440879d86714a0ed253fcf@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T100000
+DTEND;TZID=Europe/Berlin:20261110T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:1ba49f1d3b7ff1e1ca26d550e7c18b69@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T123000
+DTEND;TZID=Europe/Berlin:20261110T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:b93142d82b34072f338b83d8c36fef25@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261110T141500
+DTEND;TZID=Europe/Berlin:20261110T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:81b4b6ba66a9c2e3b4a2989ca2ee1e54@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261113T081500
+DTEND;TZID=Europe/Berlin:20261113T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:cea2c4730ff83175c7e6fb0175afe0f0@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T081500
+DTEND;TZID=Europe/Berlin:20261116T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5bf58d53a1f0a28fde0937203910cecb@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T100000
+DTEND;TZID=Europe/Berlin:20261116T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b4b94d1408b84171a98578347905c38c@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261116T123000
+DTEND;TZID=Europe/Berlin:20261116T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7e1fc9e3b8e27daf92dc507340cb4c20@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T081500
+DTEND;TZID=Europe/Berlin:20261117T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5b2b6ac6d271d3956f71a9526dc47957@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T100000
+DTEND;TZID=Europe/Berlin:20261117T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:4ad3763028f3c06b5804649c231b3cb7@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T123000
+DTEND;TZID=Europe/Berlin:20261117T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:47908c8eb4b7ef1da7e3cf4702be1120@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261117T141500
+DTEND;TZID=Europe/Berlin:20261117T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:288c55163456347d40baa42c162dc4cb@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261120T081500
+DTEND;TZID=Europe/Berlin:20261120T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:963f1d82e66bbeee65617a1b856d7cba@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T081500
+DTEND;TZID=Europe/Berlin:20261123T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5cf711506713bde55d39a09f2c4ecf9a@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T100000
+DTEND;TZID=Europe/Berlin:20261123T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c3994a75115aad7598d9d197ad109d43@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261123T123000
+DTEND;TZID=Europe/Berlin:20261123T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ee630b56d41766a27364b36b2d0dbf2e@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T081500
+DTEND;TZID=Europe/Berlin:20261124T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9bff38f6b55f860c9c3dd65f7e130db9@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T100000
+DTEND;TZID=Europe/Berlin:20261124T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:531f94f7f0cb0184e4605882f2380571@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T123000
+DTEND;TZID=Europe/Berlin:20261124T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:3284a7c5b441754eda610f74e37d381b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261124T141500
+DTEND;TZID=Europe/Berlin:20261124T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:0bc6b12990a92aca3d35f6d0a5df95a8@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261127T081500
+DTEND;TZID=Europe/Berlin:20261127T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f7352534a795a4357ad68e6ea7ef61c4@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T081500
+DTEND;TZID=Europe/Berlin:20261130T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:112ec15e63cc89ee336426a52096dbc1@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T100000
+DTEND;TZID=Europe/Berlin:20261130T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3be5c71c4edc998a2b1460515752c9f5@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261130T123000
+DTEND;TZID=Europe/Berlin:20261130T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9ad2b39668e1f1fa6d024bef197a9dca@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T081500
+DTEND;TZID=Europe/Berlin:20261201T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:7285c7001909f08044c2378e84a85184@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T100000
+DTEND;TZID=Europe/Berlin:20261201T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:8dfedef8161b0ead58c97e93f1ff7dd3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T123000
+DTEND;TZID=Europe/Berlin:20261201T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:c15ee3815001e348744af659d80200fa@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261201T141500
+DTEND;TZID=Europe/Berlin:20261201T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:056a7e3b48a5f758f08d2f8680a280f0@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261204T081500
+DTEND;TZID=Europe/Berlin:20261204T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:f92db319265c554cd6178661461507a1@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T081500
+DTEND;TZID=Europe/Berlin:20261207T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8d41f93c72738598aa02ff60410a6974@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T100000
+DTEND;TZID=Europe/Berlin:20261207T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:8b801f216f1ae1b5f146092160436e30@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261207T123000
+DTEND;TZID=Europe/Berlin:20261207T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:120e8dd530a6eefd3b1761276db783ea@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T081500
+DTEND;TZID=Europe/Berlin:20261208T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a8904543470663739fd2b52946162849@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T100000
+DTEND;TZID=Europe/Berlin:20261208T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:90cf213e1625036a44ffced077a42547@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T123000
+DTEND;TZID=Europe/Berlin:20261208T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:9521071c93d70913097cedfbaf96a653@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261208T141500
+DTEND;TZID=Europe/Berlin:20261208T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:aee9905a93750f852d5c05e3ea2db555@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261211T081500
+DTEND;TZID=Europe/Berlin:20261211T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:584dc2b19962d31bee63cb9515d24127@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T081500
+DTEND;TZID=Europe/Berlin:20261214T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:94a2af7256472d79e8078ff01d43d485@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T100000
+DTEND;TZID=Europe/Berlin:20261214T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:31984b30ae2dbdb4f1f63d6417211018@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261214T123000
+DTEND;TZID=Europe/Berlin:20261214T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:e52f212f3762e2430a54edeb9be5e6d3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T081500
+DTEND;TZID=Europe/Berlin:20261215T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:4e94e8799e12c0ede89e1b2c30d5e3b9@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T100000
+DTEND;TZID=Europe/Berlin:20261215T113000
+SUMMARY:(!) Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): DB (B. Poniatowski)
+ \, Raum SW23/147\n\nAlle Gruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsa
+ al\nGruppe 2: DB (B. Poniatowski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, R
+ aum 231\nGruppe 4: SWT (J. Poniatowski)\, Raum S004\n\nHauptraum laut Plan
+ : Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:02d5a3233261a88544e65d696489b1be@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T123000
+DTEND;TZID=Europe/Berlin:20261215T140000
+SUMMARY:(!) Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): SWT (J. Poniatowski
+ )\, Raum SW 23/147\n\nAlle Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\n
+ Gruppe 2: SWT (J. Poniatowski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\
+ , Raum 231\nGruppe 4: DB (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hö
+ rsaal RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:8573466cb1792f2393346bbd1a1e4643@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261215T141500
+DTEND;TZID=Europe/Berlin:20261215T154500
+SUMMARY:(!) Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): STO (Dreßen)\, Rau
+ m SW 23/147\n\nAlle Gruppen:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGrup
+ pe 2: STO (Dreßen)\, Raum SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum
+  231\nGruppe 4: STO (Albrecht)\, Raum S004\n\nHauptraum laut Plan: Hörsaa
+ l RZ (Raum 304)\, Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:610be9985262526e9fdc0ebb429c351f@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261218T081500
+DTEND;TZID=Europe/Berlin:20261218T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c5b216e823f3739df24875effc6790c1@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T081500
+DTEND;TZID=Europe/Berlin:20261221T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a22df321705e0e61a4c3b54b1e928547@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T100000
+DTEND;TZID=Europe/Berlin:20261221T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:fe57c072a97e9416ea47941e86c9d4ed@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261221T123000
+DTEND;TZID=Europe/Berlin:20261221T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:71bb720621c5188d9d1cff4d6d7e91cf@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T081500
+DTEND;TZID=Europe/Berlin:20261222T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:54cd4862c7600a213884753c40490a38@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T100000
+DTEND;TZID=Europe/Berlin:20261222T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:cf2218cbf8486e910587e0490408cf42@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T123000
+DTEND;TZID=Europe/Berlin:20261222T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:8b50bf432c36624a1718f67a8b344a60@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20261222T141500
+DTEND;TZID=Europe/Berlin:20261222T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:01f765936ace5ae76524c50eab6a1835@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (1. Weihnachtstag)
+END:VEVENT
+BEGIN:VEVENT
+UID:a194955611c282f623450a57d37913ad@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (2. Weihnachtstag)
+END:VEVENT
+BEGIN:VEVENT
+UID:4ae9ad60d0a74620c3f4e79ab76693e7@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Neujahr)
+END:VEVENT
+BEGIN:VEVENT
+UID:8aafcbec9dc3afca324ffbeef7e6f0d9@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T081500
+DTEND;TZID=Europe/Berlin:20270104T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:693455d24beb8c7948a929233d095f0b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T100000
+DTEND;TZID=Europe/Berlin:20270104T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:eed0049d330316a165067591f0066a61@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270104T123000
+DTEND;TZID=Europe/Berlin:20270104T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:ce55c337b27cad53331b592ef55d0e66@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T081500
+DTEND;TZID=Europe/Berlin:20270105T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:972cd52870e4db9bb0241b4dc07aee3b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T100000
+DTEND;TZID=Europe/Berlin:20270105T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ea80e418484c59e08ad0c194fb7b35@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T123000
+DTEND;TZID=Europe/Berlin:20270105T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:4da467ea9160b72a2fda7b9041eda667@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270105T141500
+DTEND;TZID=Europe/Berlin:20270105T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:c2ab0f77222c5533a00c1fbda259d6fc@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270108T081500
+DTEND;TZID=Europe/Berlin:20270108T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:13913084abab17e82cc54a9128110cfb@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270111T081500
+DTEND;TZID=Europe/Berlin:20270111T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a43619e1456b2bc56dc359c6ca35a5de@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270111T100000
+DTEND;TZID=Europe/Berlin:20270111T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3fdf132c68abef36836c8d2c24edb0af@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270111T123000
+DTEND;TZID=Europe/Berlin:20270111T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:a8f2c38eede04a5c40c0a7d80ff8ff67@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T081500
+DTEND;TZID=Europe/Berlin:20270112T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:5062f99201cba6fd5b91a9e6f38253e2@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T100000
+DTEND;TZID=Europe/Berlin:20270112T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:145d95da3f4692c63ff38ea6b6354bf8@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T123000
+DTEND;TZID=Europe/Berlin:20270112T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:74b00ba77eeef5977314a92ca1feffc3@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270112T141500
+DTEND;TZID=Europe/Berlin:20270112T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:b708289bd4d04395c7028b907bf19ad4@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270115T081500
+DTEND;TZID=Europe/Berlin:20270115T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3acee31b0f369cc2b7a20880b59bb1a7@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270118T081500
+DTEND;TZID=Europe/Berlin:20270118T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:bf5882f0e5358fa116ff78a916b290a7@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270118T100000
+DTEND;TZID=Europe/Berlin:20270118T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:67e0d854d57e0bc609ffeb97b0b6c234@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270118T123000
+DTEND;TZID=Europe/Berlin:20270118T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c41b32dab40954f20a97ba9298b18567@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T081500
+DTEND;TZID=Europe/Berlin:20270119T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:14ddefda14509c5a151fd1767be027ba@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T100000
+DTEND;TZID=Europe/Berlin:20270119T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:bc95902f7975276694e07cc9523fbce1@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T123000
+DTEND;TZID=Europe/Berlin:20270119T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:1378bd61ea8876c054a8730aa1d2068b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270119T141500
+DTEND;TZID=Europe/Berlin:20270119T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:264c8025e00d38ce52f1ecf003a43364@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270122T081500
+DTEND;TZID=Europe/Berlin:20270122T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:1969a9ee4fe9ceeebea854ce86384a13@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270125T081500
+DTEND;TZID=Europe/Berlin:20270125T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:b28edb06683a0fa6ee3d0a36af43574e@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270125T100000
+DTEND;TZID=Europe/Berlin:20270125T113000
+SUMMARY:Datenbanken
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:d5ac74e968ee918fe408b2178f613df5@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270125T123000
+DTEND;TZID=Europe/Berlin:20270125T153000
+SUMMARY:Softwaretechnik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Rohde\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:417be268f8bcc04117e16ad5765ee8b4@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T081500
+DTEND;TZID=Europe/Berlin:20270126T094500
+SUMMARY:Stochastik
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Heinrichs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3f512861751a8da6a62ca22a5444bdf1@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T100000
+DTEND;TZID=Europe/Berlin:20270126T113000
+SUMMARY:Übung DB (B. Poniatowski)
+LOCATION:SW23/147
+DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
+ ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
+ towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
+ . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
+ , Seffenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:9f04a4f22c895323396b26fedea6ef7c@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T123000
+DTEND;TZID=Europe/Berlin:20270126T140000
+SUMMARY:Übung SWT (J. Poniatowski)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
+  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
+ ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
+ (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
+ fenter Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:8179a4354fa33af87733a585dd53555b@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270126T141500
+DTEND;TZID=Europe/Berlin:20270126T154500
+SUMMARY:Übung STO (Dreßen)
+LOCATION:SW 23/147
+DESCRIPTION:Deine Gruppe (2): STO (Dreßen)\, Raum SW 23/147\n\nAlle Gruppe
+ n:\nGruppe 1: DB (Eichhof)\, Raum Hörsaal\nGruppe 2: STO (Dreßen)\, Raum
+  SW 23/147\nGruppe 3: DB (B. Poniatowski)\, Raum S003\nGruppe 4: STO (Albr
+ echt)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffent
+ er Weg 23
+END:VEVENT
+BEGIN:VEVENT
+UID:a6035ed8fa05f118376996dd16d04dc6@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270129T081500
+DTEND;TZID=Europe/Berlin:20270129T113000
+SUMMARY:C++
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Voß\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:44bfff18d11a41ce921009ed71bf935c@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270225T083000
+DTEND;TZID=Europe/Berlin:20270225T163000
+SUMMARY:Einführung in die Parallelprogrammierung
+LOCATION:Seminarraum 004\, Kopernikusstr. 6
+DESCRIPTION:Dozent: Pflug
+END:VEVENT
+BEGIN:VEVENT
+UID:e977aece029a77f55c20bdee670ada4c@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270226T083000
+DTEND;TZID=Europe/Berlin:20270226T163000
+SUMMARY:Einführung in die Parallelprogrammierung
+LOCATION:Seminarraum 004\, Kopernikusstr. 6
+DESCRIPTION:Dozent: Pflug
+END:VEVENT
+BEGIN:VEVENT
+UID:3b99c2cf2974008d7585db7a39da7233@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270301T083000
+DTEND;TZID=Europe/Berlin:20270301T163000
+SUMMARY:Einführung in die Parallelprogrammierung
+LOCATION:Seminarraum 004\, Kopernikusstr. 6
+DESCRIPTION:Dozent: Pflug
+END:VEVENT
+BEGIN:VEVENT
+UID:2ea890326afe3eec1f1369e0219a50e5@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270302T083000
+DTEND;TZID=Europe/Berlin:20270302T163000
+SUMMARY:Einführung in die Parallelprogrammierung
+LOCATION:Seminarraum 004\, Kopernikusstr. 6
+DESCRIPTION:Dozent: Pflug
+END:VEVENT
+BEGIN:VEVENT
+UID:df89541127adefcbaa1591f16d0421ac@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270303T083000
+DTEND;TZID=Europe/Berlin:20270303T163000
+SUMMARY:Einführung in die Parallelprogrammierung
+LOCATION:Seminarraum 004\, Kopernikusstr. 6
+DESCRIPTION:Dozent: Pflug
+END:VEVENT
+BEGIN:VEVENT
+UID:409206e3e6f7fcb5591ba76f976ab5b5@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270304T083000
+DTEND;TZID=Europe/Berlin:20270304T163000
+SUMMARY:Einführung in die Parallelprogrammierung
+LOCATION:Seminarraum 004\, Kopernikusstr. 6
+DESCRIPTION:Dozent: Pflug
+END:VEVENT
+BEGIN:VEVENT
+UID:8e3ce7e163cd71a6ae66862db0526b71@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270305T080000
+DTEND;TZID=Europe/Berlin:20270305T170000
+SUMMARY:SWT-Messe
+LOCATION:Seminarraum 001\, Kopernikusstr. 6
+DESCRIPTION:Dozent: Rohde\nSWT-Messe: 13 - 16 Uhr\nVorher und nachher: Auf-
+  und Abbau
+END:VEVENT
+BEGIN:VEVENT
+UID:58a4c4d4e553835c4b10cc10d87e0c61@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Karfreitag)
+END:VEVENT
+BEGIN:VEVENT
+UID:125dade0af0c8d4f5330e585cc9c21b8@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Ostersonntag)
+END:VEVENT
+BEGIN:VEVENT
+UID:c7fb8c18453356a58a381291c2fdb497@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Ostermontag)
+END:VEVENT
+BEGIN:VEVENT
+UID:6c032fc92f5755cb0c0aa1e9d7e849ac@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Erster Mai)
+END:VEVENT
+BEGIN:VEVENT
+UID:34e61cd71df1931b12734a945c05cbd8@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Christi Himmelfahrt)
+END:VEVENT
+BEGIN:VEVENT
+UID:86f02aaf2de9ddccd9c1baabee2a6b88@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Pfingstsonntag)
+END:VEVENT
+BEGIN:VEVENT
+UID:91aaf299b3e4830ac90ef7c8ab224856@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Pfingstmontag)
+END:VEVENT
+BEGIN:VEVENT
+UID:0c06bb9918d1e57db16a7cfc046ddc92@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Fronleichnam)
+END:VEVENT
+BEGIN:VEVENT
+UID:8b7bd00eb85f1c0b6d4564e3e919b5ff@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Tag der deutschen Einheit)
+END:VEVENT
+BEGIN:VEVENT
+UID:9ff83d15d596a25129edd314597f6772@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271102
+TRANSP:TRANSPARENT
+SUMMARY:Feiertag (Allerheiligen)
+END:VEVENT
+END:VCALENDAR
