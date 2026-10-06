@@ -1,0 +1,56 @@
+name: Stundenplan aktualisieren
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # täglich 04:30 UTC (= 05:30/06:30 Uhr deutscher Zeit)
+  workflow_dispatch:        # zusätzlich per Knopfdruck startbar
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stundenplan
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # nötig, um die ICS und heartbeat.txt zu committen
+    steps:
+      - name: Repository holen
+        uses: actions/checkout@v4
+
+      - name: ICS erzeugen
+        run: python3 build_ics.py
+
+      - name: Änderungen committen (nur wenn es welche gibt)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/stundenplan.ics heartbeat.txt
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen, kein Commit nötig."
+          else
+            git commit -m "Stundenplan aktualisiert"
+            git push
+          fi
+
+      - name: Seite für GitHub Pages vorbereiten
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Auf GitHub Pages veröffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4
