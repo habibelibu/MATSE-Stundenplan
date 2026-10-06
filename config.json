@@ -1,0 +1,12 @@
+{
+  "_hilfe": "Siehe README.md, Abschnitt 'Einstellungen ändern'. Nur die Werte ändern, nicht die Namen links.",
+  "lehrjahr_feed_id": 2,
+  "wahlmodul_feed_id": 4,
+  "gruppe": 2,
+  "wahlmodule": ["C++", "Parallelprogrammierung"],
+  "feiertage": true,
+  "tage_zurueck": 120,
+  "tage_voraus": 400,
+  "feed_basis_url": "https://www.matse.itc.rwth-aachen.de/stundenplan/web/eventFeed",
+  "ausgabe": "docs/stundenplan.ics"
+}
