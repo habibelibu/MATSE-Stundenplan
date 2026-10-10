@@ -26,54 +26,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:3255d80a3e915f1240d40a1f4a2c5c41@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260611T081500
-DTEND;TZID=Europe/Berlin:20260611T103000
-SUMMARY:Numerik 1
-LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
-DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
-END:VEVENT
-BEGIN:VEVENT
-UID:800cf53218de8fd5619ab5b1a97dcb56@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260611T104500
-DTEND;TZID=Europe/Berlin:20260611T121500
-SUMMARY:(!) Übung SW 23/147
-LOCATION:(Roussel)
-DESCRIPTION:Achtung\, Raumwechsel!\nDeine Gruppe (2): SW 23/147\, Raum (Rou
- ssel)\n\nAlle Gruppen:\nGruppe 1: Hörsaal\, Raum (J. Poniatowski)\nGruppe
-  2: SW 23/147\, Raum (Roussel)\nGruppe 3: 231\, Raum (Mix)\nGruppe 4: S004
- \, Raum (B.Poniatowski)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, S
- effenter Weg 23
-END:VEVENT
-BEGIN:VEVENT
-UID:45f121cca932e2f3c15fea3d0aa6766e@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260611T131500
-DTEND;TZID=Europe/Berlin:20260611T144500
-SUMMARY:Übung SW 23/147
-LOCATION:(J. Poniatowski)
-DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (J. Poniatowski)\n\nAlle Gru
- ppen:\nGruppe 1: Hörsaal\, Raum (Jagodzinska)\nGruppe 2: SW 23/147\, Raum
-  (J. Poniatowski)\nGruppe 3: S003\, Raum (Eichhof)\nGruppe 4: S004\, Raum 
- (Roussel)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 2
- 3
-END:VEVENT
-BEGIN:VEVENT
-UID:bcd77422854eb06bb26c1d5bda26bf3b@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260611T150000
-DTEND;TZID=Europe/Berlin:20260611T163000
-SUMMARY:Übung SW 23/147
-LOCATION:KomSys (Jagodzinska)
-DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum KomSys (Jagodzinska)\n\nAlle
-  Gruppen:\nGruppe 1: Hörsaal\, Raum WebEng (Mix)\nGruppe 2: SW 23/147\, R
- aum KomSys (Jagodzinska)\nGruppe 3: S003\, Raum KomSys (B. Poniatowski)\nG
- ruppe 4: S004\, Raum Num 1 (Eichhof)\n\nHauptraum laut Plan: Hörsaal RZ (
- Raum 304)\, Seffenter Weg 23
-END:VEVENT
-BEGIN:VEVENT
 UID:66777434b8ca67e9b2673454894d10e6@matse-stundenplan
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Berlin:20260617T081500
