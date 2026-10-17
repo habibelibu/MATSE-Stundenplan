@@ -26,53 +26,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:287e7be598b952e87bb1838752260aa1@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260618T081500
-DTEND;TZID=Europe/Berlin:20260618T103000
-SUMMARY:Numerik 1
-LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
-DESCRIPTION:Dozent: Reißel\nOrt: Hörsaal IT Center
-END:VEVENT
-BEGIN:VEVENT
-UID:b59ac44971bd8469f9523695415e3222@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260618T104500
-DTEND;TZID=Europe/Berlin:20260618T121500
-SUMMARY:Übung SW 23/147
-LOCATION:(Roussel)
-DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (Roussel)\n\nAlle Gruppen:\n
- Gruppe 1: Hörsaal\, Raum (J. Poniatowski)\nGruppe 2: SW 23/147\, Raum (Ro
- ussel)\nGruppe 3: S003\, Raum (Mix)\nGruppe 4: S004\, Raum (B.Poniatowski)
- \n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 23
-END:VEVENT
-BEGIN:VEVENT
-UID:f2f2fe42c6defdc90d9e657a7e38ede2@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260618T131500
-DTEND;TZID=Europe/Berlin:20260618T144500
-SUMMARY:Übung SW 23/147
-LOCATION:(J. Poniatowski)
-DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum (J. Poniatowski)\n\nAlle Gru
- ppen:\nGruppe 1: Hörsaal\, Raum (Jagodzinska)\nGruppe 2: SW 23/147\, Raum
-  (J. Poniatowski)\nGruppe 3: S003\, Raum (Eichhof)\nGruppe 4: S004\, Raum 
- (Roussel)\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 2
- 3
-END:VEVENT
-BEGIN:VEVENT
-UID:aca4505586382b7e858546d77aba4547@matse-stundenplan
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Berlin:20260618T150000
-DTEND;TZID=Europe/Berlin:20260618T163000
-SUMMARY:Übung SW 23/147
-LOCATION:KomSys (Jagodzinska)
-DESCRIPTION:Deine Gruppe (2): SW 23/147\, Raum KomSys (Jagodzinska)\n\nAlle
-  Gruppen:\nGruppe 1: Hörsaal\, Raum WebEng (Mix)\nGruppe 2: SW 23/147\, R
- aum KomSys (Jagodzinska)\nGruppe 3: S003\, Raum KomSys (B. Poniatowski)\nG
- ruppe 4: S004\, Raum Num 1 (Eichhof)\n\nHauptraum laut Plan: Hörsaal RZ (
- Raum 304)\, Seffenter Weg 23
-END:VEVENT
-BEGIN:VEVENT
 UID:e7e043a80662a864673b870540daeba3@matse-stundenplan
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Berlin:20260624T081500
