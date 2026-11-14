@@ -45,7 +45,7 @@ DEFAULTS = {
     "feiertage": True,
     "tage_zurueck": 120,
     "tage_voraus": 400,
-    "feed_basis_url": "https://www.matse.itc.rwth-aachen.de/stundenplan/web/eventFeed",
+    "feed_basis_url": "https://dienste.matse.rwth-aachen.de/stundenplan/web/eventFeed",
     "ausgabe": "docs/stundenplan.ics",
 }
 
@@ -149,16 +149,27 @@ def fetch_feed(cfg: dict, feed_id: int, start: dt.date, end: dt.date) -> list:
 # --------------------------------------------------------------------------
 # Hilfsfunktionen fuer Texte
 # --------------------------------------------------------------------------
+def txt(value) -> str:
+    """Beliebigen Feld-Wert sicher in bereinigten Text umwandeln.
+
+    Der Feed liefert Zahlen mal als Text ("23"), mal als Zahl (23), leere Felder
+    mal als "" und mal als null. Alles wird hier zu einem normalen String.
+    """
+    if value is None or isinstance(value, bool):
+        return ""
+    return str(value).strip()
+
+
 def split_name(name: str) -> tuple[str, bool]:
     """Liefert (Name ohne '(!) '-Praefix, wurde_geaendert)."""
-    name = (name or "").strip()
+    name = txt(name)
     changed = bool(CHANGE_PREFIX.match(name))
     return CHANGE_PREFIX.sub("", name).strip(), changed
 
 
 def info_lines(info: str) -> list[str]:
     """information (HTML mit <br />) -> Liste bereinigter Zeilen, leere Raender entfernt."""
-    text = html.unescape(BR.sub("\n", info or ""))
+    text = html.unescape(BR.sub("\n", txt(info)))
     text = TAGS.sub("", text)
     lines = [ln.strip() for ln in text.replace("\r", "").split("\n")]
     out: list[str] = []
@@ -187,8 +198,8 @@ def parse_group_line(line: str):
 def location_text(loc) -> str:
     if not isinstance(loc, dict):
         return ""
-    name = (loc.get("name") or "").strip()
-    addr = " ".join(x for x in ((loc.get("street") or "").strip(), (loc.get("nr") or "").strip()) if x)
+    name = txt(loc.get("name"))
+    addr = " ".join(x for x in (txt(loc.get("street")), txt(loc.get("nr"))) if x)
     return ", ".join(x for x in (name, addr) if x)
 
 
@@ -205,7 +216,7 @@ def parse_dt(value) -> dt.datetime:
 # Events bauen
 # --------------------------------------------------------------------------
 def is_holiday(item: dict) -> bool:
-    return str(item.get("isHoliday", "")).strip() not in ("", "0")
+    return txt(item.get("isHoliday")).lower() not in ("", "0", "false", "none", "null")
 
 
 def build_event(item: dict, feed_id: int, group: int, warnings: list[str]) -> dict | None:
@@ -225,7 +236,7 @@ def build_event(item: dict, feed_id: int, group: int, warnings: list[str]) -> di
     lines = info_lines(item.get("information", ""))
     base_location = location_text(item.get("location"))
     lecturer = item.get("lecturer") if isinstance(item.get("lecturer"), dict) else {}
-    lecturer_name = (lecturer.get("name") or "").strip()  # E-Mail bewusst nicht uebernommen
+    lecturer_name = txt(lecturer.get("name"))  # E-Mail bewusst nicht uebernommen
 
     summary = prefix + name
     location = base_location
@@ -256,7 +267,7 @@ def build_event(item: dict, feed_id: int, group: int, warnings: list[str]) -> di
             desc.append(f"Dozent: {lecturer_name}")
         desc.extend(lines)
         loc = item.get("location") if isinstance(item.get("location"), dict) else {}
-        loc_desc = (loc.get("desc") or "").strip()
+        loc_desc = txt(loc.get("desc"))
         if loc_desc:
             desc.append(f"Ort: {loc_desc}")
 
@@ -295,6 +306,17 @@ def build_holiday(item: dict, warnings: list[str]) -> dict | None:
     }
 
 
+def safe_build(func, item: dict, *args):
+    """Ein einzelner kaputter Eintrag darf nicht den ganzen Lauf abbrechen."""
+    warnings = args[-1]
+    try:
+        return func(item, *args)
+    except (AttributeError, TypeError, ValueError, KeyError) as exc:
+        title = txt(item.get("name") or item.get("title"))
+        warnings.append(f"Eintrag '{title}' am {txt(item.get('start'))} uebersprungen ({type(exc).__name__}: {exc})")
+        return None
+
+
 def build_events(feed_lehrjahr: list, feed_wahl: list, cfg: dict,
                  win_start: dt.date, win_end: dt.date, warnings: list[str]):
     """Gibt (events, anzahl_lehrjahr_termine_ohne_feiertage) zurueck."""
@@ -307,11 +329,11 @@ def build_events(feed_lehrjahr: list, feed_wahl: list, cfg: dict,
             continue
         if is_holiday(item):
             if cfg["feiertage"]:
-                ev = build_holiday(item, warnings)
+                ev = safe_build(build_holiday, item, warnings)
                 if ev and win_start <= ev["start"].date() <= win_end:
                     events[ev["uid"]] = ev
             continue
-        ev = build_event(item, cfg["lehrjahr_feed_id"], group, warnings)
+        ev = safe_build(build_event, item, cfg["lehrjahr_feed_id"], group, warnings)
         if ev and win_start <= ev["start"].date() <= win_end:
             events[ev["uid"]] = ev
             lehrjahr_count += 1
@@ -323,7 +345,7 @@ def build_events(feed_lehrjahr: list, feed_wahl: list, cfg: dict,
         name, _ = split_name(item.get("name") or item.get("title") or "")
         if not any(w in name.lower() for w in whitelist):
             continue
-        ev = build_event(item, cfg["wahlmodul_feed_id"], group, warnings)
+        ev = safe_build(build_event, item, cfg["wahlmodul_feed_id"], group, warnings)
         if ev and win_start <= ev["start"].date() <= win_end:
             events[ev["uid"]] = ev
 
