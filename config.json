@@ -7,6 +7,6 @@
   "feiertage": true,
   "tage_zurueck": 120,
   "tage_voraus": 400,
-  "feed_basis_url": "https://www.matse.itc.rwth-aachen.de/stundenplan/web/eventFeed",
+  "feed_basis_url": "https://dienste.matse.rwth-aachen.de/stundenplan/web/eventFeed",
   "ausgabe": "docs/stundenplan.ics"
 }
