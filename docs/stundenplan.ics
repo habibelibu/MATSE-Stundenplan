@@ -595,26 +595,26 @@ UID:5b2b6ac6d271d3956f71a9526dc47957@matse-stundenplan
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Berlin:20261117T100000
 DTEND;TZID=Europe/Berlin:20261117T113000
-SUMMARY:Übung DB (B. Poniatowski)
+SUMMARY:(!) Übung DB (B. Poniatowski)
 LOCATION:SW23/147
-DESCRIPTION:Deine Gruppe (2): DB (B. Poniatowski)\, Raum SW23/147\n\nAlle G
- ruppen:\nGruppe 1: STO (Heinrichs)\, Raum Hörsaal\nGruppe 2: DB (B. Ponia
- towski)\, Raum SW23/147\nGruppe 3: SWT (Mix)\, Raum S003\nGruppe 4: SWT (J
- . Poniatowski)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\
- , Seffenter Weg 23
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): DB (B. Poniatowski)
+ \, Raum SW23/147\n\nAlle Gruppen:\nGruppe 1: STO (Heinrichs)\, Raum S003\n
+ Gruppe 2: DB (B. Poniatowski)\, Raum SW23/147\nGruppe 3: SWT (J. Poniatows
+ ki)\, Raum Hörsaal\nGruppe 4: SWT (J. Poniatowski)\, Raum Hörsaal\n\nHau
+ ptraum laut Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 23
 END:VEVENT
 BEGIN:VEVENT
 UID:4ad3763028f3c06b5804649c231b3cb7@matse-stundenplan
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Berlin:20261117T123000
 DTEND;TZID=Europe/Berlin:20261117T140000
-SUMMARY:Übung SWT (J. Poniatowski)
-LOCATION:SW 23/147
-DESCRIPTION:Deine Gruppe (2): SWT (J. Poniatowski)\, Raum SW 23/147\n\nAlle
-  Gruppen:\nGruppe 1: SWT (Mix)\, Raum Hörsaal\nGruppe 2: SWT (J. Poniatow
- ski)\, Raum SW 23/147\nGruppe 3: STO (Albrecht)\, Raum S003\nGruppe 4: DB 
- (Eichhof)\, Raum S004\n\nHauptraum laut Plan: Hörsaal RZ (Raum 304)\, Sef
- fenter Weg 23
+SUMMARY:(!) Übung SWT (J. Poniatowski)
+LOCATION:Hörsaal
+DESCRIPTION:Achtung\, Raumänderung!\nDeine Gruppe (2): SWT (J. Poniatowski
+ )\, Raum Hörsaal\n\nAlle Gruppen:\nGruppe 1: SWT (J. Poniatowski)\, Raum 
+ Hörsaal\nGruppe 2: SWT (J. Poniatowski)\, Raum Hörsaal\nGruppe 3: STO (A
+ lbrecht)\, Raum S003\nGruppe 4: DB (Eichhof)\, Raum S004\n\nHauptraum laut
+  Plan: Hörsaal RZ (Raum 304)\, Seffenter Weg 23
 END:VEVENT
 BEGIN:VEVENT
 UID:47908c8eb4b7ef1da7e3cf4702be1120@matse-stundenplan
