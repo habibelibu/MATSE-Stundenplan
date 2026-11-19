@@ -1340,6 +1340,33 @@ DESCRIPTION:Dozent: Rohde\nSWT-Messe: 13 - 16 Uhr\nVorher und nachher: Auf-
   und Abbau
 END:VEVENT
 BEGIN:VEVENT
+UID:ebba584e729ab6d103445ed154aad543@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270316T093000
+DTEND;TZID=Europe/Berlin:20270316T170000
+SUMMARY:Wissenschaftliches Arbeiten
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Fuchs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:c0eeed5554ef1328ed9eadb8957d987a@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270317T093000
+DTEND;TZID=Europe/Berlin:20270317T170000
+SUMMARY:Wissenschaftliches Arbeiten
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Fuchs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
+UID:52e443899c37206aa2fbdc17d91da443@matse-stundenplan
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Berlin:20270318T093000
+DTEND;TZID=Europe/Berlin:20270318T170000
+SUMMARY:Wissenschaftliches Arbeiten
+LOCATION:Hörsaal RZ (Raum 304)\, Seffenter Weg 23
+DESCRIPTION:Dozent: Fuchs\nOrt: Hörsaal IT Center
+END:VEVENT
+BEGIN:VEVENT
 UID:58a4c4d4e553835c4b10cc10d87e0c61@matse-stundenplan
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270326
